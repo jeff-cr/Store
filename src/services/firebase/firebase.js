@@ -10,15 +10,6 @@ import { env } from "../../helpers/constants";
 
 // const env=import.meta.env
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDmUhPOTw8S7n7Pk7sPmZlqfCUpAllkZ-E",
-//   authDomain: "web-fake-store.firebaseapp.com",
-//   projectId: "web-fake-store",
-//   storageBucket: "web-fake-store.appspot.com",
-//   messagingSenderId: "709373015941",
-//   appId: "1:709373015941:web:5cd84a08f207b1782bf6ec",
-//   measurementId: "G-Z7SQ8P9ML2"
-// };
 console.log("Env ",env);
 const firebaseConfig = {
     apiKey: env.VITE_API_KEY,
