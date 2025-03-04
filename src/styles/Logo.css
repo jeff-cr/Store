@@ -1,0 +1,16 @@
+.box-logo-home{
+    height: inherit;
+
+}
+
+.box-logo-home p{
+
+    color: rgb(41, 124, 233);
+    font-size: 32px;
+}
+
+@media (max-width: 650px) {
+    .box-logo-home img{
+        height: 38.5px;
+    }
+}

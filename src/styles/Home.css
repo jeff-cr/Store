@@ -1,0 +1,46 @@
+
+.boxGallery{
+    /* background-color: #f1f4f5e5; */
+    /* background-color: red; */
+    /* border-radius: 10px;
+    padding-top: 20px; */
+    /* padding: 2rem 0; */
+    /* margin-top: 100px; */
+
+    width: 90%;
+    margin: 100px auto;
+    /* height: 100vh; */
+    /* height: 100%; */
+    /* height: 290px; */
+    /* height: 590px; */
+    /* border-radius: 10px; */
+    /* height: 800px; */
+    /* scroll-behavior: smooth; */
+    /* overflow-y: scroll; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 1px;
+    /* padding: 0 20px; */
+    
+
+
+
+
+}
+
+.boxGallery:hover{
+
+}
+
+.boxGallery--light{
+    background-color: inherit;
+    /* background-color: aqua; */
+}
+
+
+.boxGallery--dark{
+    background-color: #242424e5;
+    box-shadow: 0 2px 15px rgba(255, 255, 255, 0.308);
+}

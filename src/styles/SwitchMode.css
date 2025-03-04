@@ -1,0 +1,62 @@
+
+.toggle {
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, .1);
+    line-height: 1;
+    
+  }
+
+  .toggle--light {
+    background-color: #fff;
+    background-color: inherit;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4);
+    /* box-shadow: 0 0 10px 5px rgba(255, 255, 255, .4); */
+    color: #181717;
+    color:#f1f1f1
+  }
+
+  .toggle--dark {
+    background-color: #181717;
+    background-color: inherit;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, .4);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4);
+    color:#f1f1f1
+  }
+
+  .input {
+    display: none;
+  }
+  
+  .icon {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    transition: transform 500ms;
+  }
+  
+  .icon--moon {
+    transition-delay: 200ms;
+  }
+  
+  .icon--sun {
+    transform: scale(0);
+  }
+  
+  #switch:checked + .icon--moon {
+    transform: rotate(360deg) scale(0);
+  }
+  
+  #switch:checked ~ .icon--sun {
+    transition-delay: 200ms;
+    transform: scale(1) rotate(360deg);
+  }
+
+  .sun i{
+    font-size: 20px;
+ 
+  }
